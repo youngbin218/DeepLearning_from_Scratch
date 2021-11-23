@@ -18,8 +18,6 @@ for record in kbo_list:
     record = pd.DataFrame()
     year_record.append(record)
     
-idx = 0
-    
 for i in range(0, len(sort_list)):
     # 드라이버 객체
     driver = webdriver.Chrome(executable_path='D:/conda/chromedriver.exe')
