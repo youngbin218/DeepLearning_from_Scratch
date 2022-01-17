@@ -1,4 +1,4 @@
-# 덧셈 게층
+# 덧셈 층
 class AddLayer:
     def __init__(self):
         pass
@@ -33,7 +33,7 @@ class MulLayer:
         
         return dx, dy
     
-# 곱셈 게층 예시 (사과 100원 x 2개 x 세금 10%)
+# 곱셈 계층 예시 (사과 100원 x 2개 x 세금 10%)
 apple = 100
 apple_num = 2
 tax = 1.1
