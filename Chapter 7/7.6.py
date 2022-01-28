@@ -15,9 +15,7 @@ def filter_show(filters, nx=8, margin=3, scale=10):
 
 
 network = SimpleConvNet()
-# 무작위(랜덤) 초기화 후의 가중치
 filter_show(network.params['W1'])
 
-# 학습된 가중치
 network.load_params("params.pkl")
 filter_show(network.params['W1'])
