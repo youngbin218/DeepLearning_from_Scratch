@@ -71,8 +71,8 @@ class SimpleConvNet:
         grads['b1'] = self.layers['Conv1'].db
         grads['W2'] = self.layers['Affine1'].dW
         grads['b2'] = self.layers['Affine1'].db
-        grads['W2'] = self.layers['Affine2'].dW
-        grads['b2'] = self.layers['Affine2'].db
+        grads['W3'] = self.layers['Affine2'].dW
+        grads['b3'] = self.layers['Affine2'].db
         
         return grads
     
